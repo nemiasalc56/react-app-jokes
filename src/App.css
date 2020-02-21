@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(150, 250, 150);
+}
+
+small {
+	color: red;
+}
+
+.warning {
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	font-size: 20px;
+	margin: auto 20px;
+}
+
+nav a {
+	margin: auto 20px;
+}
+
+.title {
+	text-transform: capitalize;
+}
+
+.jokeList {
+	display: flex;
+	/*text-align: center;*/
+	justify-content: center;
+}
+
+.joke h2 {
+	text-align: center;
+	font-size: 90px;
+}
+
+.joke  {
+	text-align: center;
+	font-size: 20px;
+	margin: 20px;
+}
+
+.link {
+	color: blue;
+}
+
+.link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}

@@ -1,0 +1,30 @@
+
+.login-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.login {
+	background-color: white;
+	width: 500px;
+	border-radius: 10px;
+	align-self: center;
+}
+
+.login h2 {
+	text-align: center;
+}
+
+.button-login, .register-login-container {
+	text-align: center;
+}
+
+.register-login {
+	color: blue;
+}
+
+.register-login:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
